@@ -51,11 +51,11 @@ table {
 h1 {
 	font-size: 48px;
 	color: #444;
+	font-family: 'Roboto', sans-serif;
 }
 
 #intro-title {
 	font-size: 60px;
-	font-family: 'Times New Roman', serif;
 }
 
 body {
@@ -66,6 +66,7 @@ body {
 
 p {
 	color: #444;
+	font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -73,8 +74,18 @@ header {
 }
 
 #header-nav {
-	float: right;
-	margin: 1% 1%;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	border-top: 0;
+	background-color: white;
+}
+
+#header-nav a {
+	float:right;
+	padding: 1%;
 }
 
 .portfolio {
