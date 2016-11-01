@@ -2,7 +2,6 @@
   License: none (public domain)
 */
 
-/*
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,8 +45,28 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-*/
+
 /* Actual styling starts here */
+
+h1 {
+	font-size: 100
+	color: #444;
+}
+
+#intro-title {
+	font-size: 60px;
+	font-family: 'Times New Roman', serif;
+}
+
+body {
+	margin: 2%;
+	padding: 2%;
+	line-height: 1.4;
+}
+
+p {
+	color: #444;
+}
 
 header {
 	display: block;
@@ -55,7 +74,7 @@ header {
 
 #header-nav {
 	float: right;
-	margin: 10px 5px
+	margin: 1% 1%
 }
 
 .portfolio {
