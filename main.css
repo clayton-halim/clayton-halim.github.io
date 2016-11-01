@@ -106,6 +106,10 @@ header {
 	margin-right: 2%;
 }
 
+#profile-pic {
+	border-radius: 25px;
+}
+
 .portfolio {
 	height: 25%;
 	width: 25%;
