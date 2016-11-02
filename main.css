@@ -81,7 +81,6 @@ header {
 	z-index: 100;
 	border-top: 0;
 	background-color: white;
-	/*border-bottom: .5px solid black;*/
 	-webkit-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.33);
 	-moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.33);
 	box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.33);
@@ -90,15 +89,41 @@ header {
 #header-nav a {
 	float:right;
 	color: black;
-	padding: 1%;
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
+	padding: .5%;
+	margin: .5%;
 }
 
 #header-nav a:hover {
 	float:right;
-	color: teal;
-	padding: 1%;
+	color: #4DD0E1;
+	padding: .5%;
+	margin: .5%;
+	text-decoration: none;
+}
+
+#home {
+	padding: .5%;
+	margin: .5% .5% .5% 1%;
+	float: left;
+}
+
+#home-icon a {
+	font-size: 36;
+	float: left;
+	padding: .5%;
+	margin: .5%;
+	text-decoration: none;
+}
+
+
+#home-icon a:hover {
+	font-size: 36;
+	float: left;
+	color: #4DD0E1;
+	padding: .5%;
+	margin: .5%;
 	text-decoration: none;
 }
 
