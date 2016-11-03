@@ -138,6 +138,10 @@ header {
 	width: 15%;
 }
 
+.overview {
+	margin: 5% 0%; 
+}
+
 .portfolio {
 	height: 25%;
 	width: 25%;
