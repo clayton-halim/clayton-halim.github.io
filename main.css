@@ -146,3 +146,10 @@ header {
 	height: 25%;
 	width: 25%;
 }
+
+.offset-anchor {
+	display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
