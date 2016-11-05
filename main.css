@@ -48,6 +48,14 @@ table {
 
 /* Actual styling starts here */
 
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
 h1 {
 	font-size: 48px;
 	color: #444;
@@ -61,12 +69,16 @@ h1 {
 body {
 	margin: 2%;
 	padding: 2%;
-	line-height: 1.4;
+	line-height: 2.0;
 }
 
 p {
 	color: #444;
 	font-family: 'Roboto', sans-serif;
+}
+
+.accent-text {
+	color: #00BCD4;
 }
 
 header {
@@ -165,8 +177,14 @@ a:hover {
     visibility: hidden;
 }
 
+.social-links {
+	margin: 10px 0% 0% 0%;
+	clear: both;
+	display: block;
+}
+
 .social-icons {
-	margin: 100px 10px;
+	margin: 100px 20px 100px 0px;
 }
 
 .social-icon {
@@ -175,4 +193,18 @@ a:hover {
 
 .social-link {
 	vertical-align: middle;
+}
+
+.description {
+	margin-left: .2%;
+}
+
+.title {
+	
+}
+
+.content-box {
+	margin: 2.5% 0%;
+	max-width: 50%;
+	float: left;
 }
