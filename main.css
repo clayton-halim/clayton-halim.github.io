@@ -19,7 +19,6 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers 
@@ -70,6 +69,7 @@ body {
 	margin: 2%;
 	padding: 2%;
 	line-height: 2.0;
+	overflow-x: hidden;
 }
 
 p {
@@ -163,6 +163,7 @@ a:hover {
 
 .overview {
 	margin: 5% 0%; 
+	clear: both;
 }
 
 .portfolio {
@@ -178,9 +179,8 @@ a:hover {
 }
 
 .social-links {
-	margin: 10px 0% 0% 0%;
+	padding: 20px 0% 0% 0%;
 	clear: both;
-	display: block;
 }
 
 .social-icons {
@@ -204,7 +204,23 @@ a:hover {
 }
 
 .content-box {
-	margin: 2.5% 0%;
-	max-width: 50%;
 	float: left;
+}
+
+.content-box-left {
+	margin-top: 2.5%;
+	margin-right: 2.5%;
+	max-width: 35%;
+}
+
+.content-box-right {
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	max-width: 50%;
+}
+
+#contact-form {
+	list-style: none;
+	padding-bottom: 10%;
+	margin-left: 30%;
 }
