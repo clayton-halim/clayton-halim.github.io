@@ -44,7 +44,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 /* Actual styling starts here */
 
 strong {
@@ -66,9 +65,9 @@ h1 {
 }
 
 body {
-	margin: 2%;
-	padding: 2%;
+	margin: 4% 4%;
 	line-height: 2.0;
+	max-width: 100%;
 	overflow-x: hidden;
 }
 
@@ -154,21 +153,15 @@ a:hover {
 	margin-right: 2%;
 }
 
-#profile-pic {
-	border: 0px solid;
-	border-radius: 100%;
-	height: 10%;
-	width: 15%;
-}
-
 .overview {
-	margin: 5% 0%; 
+	padding: 5% 0% 0% 0%; 
 	clear: both;
 }
 
 .portfolio {
-	height: 25%;
-	width: 25%;
+	max-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
 }
 
 .offset-anchor {
@@ -195,9 +188,7 @@ a:hover {
 	vertical-align: middle;
 }
 
-.description {
-	margin-left: .2%;
-}
+
 
 .title {
 	
@@ -207,20 +198,25 @@ a:hover {
 	float: left;
 }
 
-.content-box-left {
-	margin-top: 2.5%;
+.content-left {
 	margin-right: 2.5%;
-	max-width: 35%;
 }
 
-.content-box-right {
-	margin-top: 2.5%;
+.content-right {
 	margin-left: 2.5%;
-	max-width: 50%;
 }
 
 #contact-form {
+	padding: 4% 0%;
 	list-style: none;
-	padding-bottom: 10%;
-	margin-left: 30%;
+}
+
+.mdl-grid {
+	padding: 0%;
+	margin: 0%;
+}
+
+.mdl-cell {
+	padding: 0%;
+	margin: 0%;
 }
