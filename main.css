@@ -110,7 +110,7 @@ a:hover {
 
 #header-nav a {
 	float:right;
-	color: black;
+	color: rgba(0,0,0,0.75);
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 	padding: .5%;
@@ -118,7 +118,6 @@ a:hover {
 }
 
 #header-nav a:hover {
-	float:right;
 	color: #4DD0E1;
 	padding: .5%;
 	margin: .5%;
@@ -128,25 +127,6 @@ a:hover {
 #home {
 	padding: .5%;
 	margin: .5% .5% .5% 1%;
-	float: left;
-}
-
-#home-icon a {
-	font-size: 36;
-	float: left;
-	padding: .5%;
-	margin: .5%;
-	text-decoration: none;
-}
-
-
-#home-icon a:hover {
-	font-size: 36;
-	float: left;
-	color: #4DD0E1;
-	padding: .5%;
-	margin: .5%;
-	text-decoration: none;
 }
 
 #nav-links {
