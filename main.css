@@ -138,9 +138,8 @@ a:hover {
 }
 
 .portfolio {
-	max-height: 100%;
-	max-width: 100%;
-	overflow: hidden;
+	height: 100%;
+	width: 100%;
 }
 
 .offset-anchor {
@@ -156,7 +155,8 @@ a:hover {
 }
 
 .social-icons {
-	margin: 100px 20px 100px 0px;
+	display: inline-block;
+	margin-right: 4%;
 }
 
 .social-icon {
@@ -165,10 +165,6 @@ a:hover {
 
 .social-link {
 	vertical-align: middle;
-}
-
-.content-box {
-	float: left;
 }
 
 .content-left {

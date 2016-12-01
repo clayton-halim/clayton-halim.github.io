@@ -1,3 +1,9 @@
-body {
-	margin: 10% 5%;
+#blog {
+	display: block;
+	height: 100vh;
+	width: 100%;
+}
+
+#blog-wrapper {
+	margin: 5% 0% 0% 0%;
 }
