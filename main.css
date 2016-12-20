@@ -174,14 +174,6 @@ a:hover {
 	vertical-align: middle;
 }
 
-.content-left {
-	margin-right: 2.5%;
-}
-
-.content-right {
-	margin-left: 2.5%;
-}
-
 #contact-form {
 	padding: 4% 0%;
 	list-style: none;
@@ -202,10 +194,6 @@ a:hover {
 	padding: 2% 4%;
 }
 
-.content {
-	padding-top: 5%;
-}
-
 #about {
 	padding: 15% 0% 0% 0%;
 }
@@ -217,4 +205,9 @@ a:hover {
 	border: 1px solid white;
 	display: flex;
 	margin: auto;
+}
+
+#portfolio-grid {
+	padding: 2%;
+	background-color: rgba(0, 0, 0, 0.85);
 }
