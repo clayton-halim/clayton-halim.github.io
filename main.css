@@ -158,8 +158,7 @@ a:hover {
 }
 
 .social-links {
-	padding: 20px 0% 0% 0%;
-	clear: both;
+	margin: 2% auto;
 }
 
 .social-icons {
@@ -211,4 +210,31 @@ a:hover {
 #portfolio-grid {
 	padding: 2%;
 	background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+@media only screen and (max-width: 640px) {
+	h1 {
+		font-size: 36px;
+		text-align: center;
+	}
+
+	#intro-title {
+		font-size: 48px;
+	}
+	
+	p {
+		text-align: center;
+	}
+
+	#nav-links {
+		display: flex;
+		justify-content: center;
+		margin: 2% 0% 2% 0%;
+	}
+
+	#social-links {
+		display: flex;
+		justify-content: center;
+	}
 }
