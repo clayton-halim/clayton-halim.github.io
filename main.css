@@ -168,6 +168,8 @@ a:hover {
 
 .social-icon {
 	vertical-align: middle;
+	height: 24px;
+	width: 25.5px;
 }
 
 .social-link {
