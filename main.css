@@ -201,12 +201,12 @@ a:hover {
 }
 
 #avatar {
-	height: 200px;
-	width: 200px;
+	height: 15em;
+	width: 15em;
 	border-radius: 50%;
 	border: 1px solid white;
 	display: flex;
-	margin: 8% auto 2% auto;
+	margin: 6% auto 2% auto;
 }
 
 #projects-grid {
@@ -230,7 +230,7 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 840px) {
 	h1 {
 		font-size: 36px;
 		text-align: center;
