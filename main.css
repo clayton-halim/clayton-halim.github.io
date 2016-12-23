@@ -144,12 +144,6 @@ a:hover {
 	clear: both;
 }
 
-.portfolio-image {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-}
-
 .offset-anchor {
 	display: block;
     position: relative;
@@ -181,16 +175,6 @@ a:hover {
 	list-style: none;
 }
 
-.mdl-grid {
-	padding: 0%;
-	margin: 0%;
-}
-
-.mdl-cell {
-	padding: 0%;
-	margin: 0%;
-}
-
 #body-wrapper {
 	margin: 0 auto;
 	padding: 2% 4%;
@@ -214,14 +198,18 @@ a:hover {
 	background-color: rgba(0, 0, 0, 0.7)
 }
 
-#portfolio-grid {
-	padding: 2%;
-	background-color: rgba(0, 0, 0, 0.7)
+.portfolio-cell {
+	padding: 0%;
+    margin: 0%;
+	background-position: center;
+	background-size: cover;
 }
 
-.portfolio-cell {
+.portfolio-img  {
 	width: 100%;
 	height: 100%;
+	opacity: 0;
+	filter: alpha(opacity=0); /* for IE6 - IE8 */
 }
 
 .project-card {
@@ -253,5 +241,16 @@ a:hover {
 	#social-links {
 		display: flex;
 		justify-content: center;
+	}
+
+	#portfolio-grid {
+		display: flex;
+		justify-content: center;
+		padding: 0%;
+		margin: 0%;
+	}	
+
+	.portfolio-cell {
+		margin: 0%;
 	}
 }
