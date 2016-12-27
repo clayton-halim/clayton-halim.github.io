@@ -176,7 +176,7 @@ a:hover {
 
 #body-wrapper {
 	margin: 0 auto;
-	padding: 2% 0%;
+	padding-top: 2%;
 }
 
 #about {
@@ -218,6 +218,12 @@ a:hover {
 .project-card {
 	display: flex;
 	justify-content: center;
+}
+
+#contact {
+	padding-bottom: 2%;
+	background-color: white;
+	padding-top: 4%;
 }
 
 

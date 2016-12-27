@@ -157,28 +157,28 @@
 					<p class="accent-text"><em>How's it going?</em></p>
 					<p>Send me a message for any questions, business inquiries, or if you just want to chat!</p>
 					<div id="contact-form">
-						<form action="mailto:ClaytonHalim3@gmail.com">
+						<form action="https://formspree.io/clayton.halim12@gmail.com" method="POST">
 							<ul id="contact-form-list">
 								<li>
 									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-										<input class="mdl-textfield__input" type="text" id="contact-name">
-										<label class="mdl-textfield__label" for="sample3">Name</label>	
+										<input class="mdl-textfield__input" type="text" id="contact-name" name="name">
+										<label class="mdl-textfield__label" for="contact-name">Name</label>	
 									</div>
 								</li>
 								<li>
 									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-										<input class="mdl-textfield__input" type="text" id="contact-email">
-										<label class="mdl-textfield__label" for="sample3">Email</label>
+										<input class="mdl-textfield__input" type="email" id="contact-email" name="email">
+										<label class="mdl-textfield__label" for="contact-email">Email</label>
 									</div>
 								</li>
 								<li>
 									<div class="mdl-textfield mdl-js-textfield">
-										<textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
-										<label class="mdl-textfield__label" for="sample5">Message (not working, stay tuned!)</label>
+										<textarea class="mdl-textfield__input" type="text" rows= "3" id="contact-msg" name="message"></textarea>
+										<label class="mdl-textfield__label" for="contact-msg">Message</label>
 									</div>
 								</li>
 								<li>
-									<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+									<button type="submit" value="Send" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
 										Send Message
 									</button>
 								</li>
