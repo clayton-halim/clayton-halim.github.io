@@ -64,6 +64,7 @@ h1 {
 	font-weight: bold;
 	color: #444;
 	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 1%;
 }
 
 #intro-title {
@@ -140,8 +141,7 @@ a:hover {
 }
 
 .overview {
-	padding: 5% 0% 0% 0%; 
-	clear: both;
+	margin: 5% 0% 0% 0%; 
 }
 
 .offset-anchor {
@@ -180,7 +180,7 @@ a:hover {
 }
 
 #about {
-	padding: 15% 0% 0% 0%;
+	margin-top: 15%;
 }
 
 #avatar {
@@ -208,6 +208,11 @@ a:hover {
 	height: 100%;
 	opacity: 0;
 	filter: alpha(opacity=0); /* for IE6 - IE8 */
+}
+
+.side-padding {
+	padding-left: 4% !important;
+	padding-right: 4% !important;
 }
 
 .project-card {
