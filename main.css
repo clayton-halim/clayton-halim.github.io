@@ -170,8 +170,7 @@ a:hover {
 	vertical-align: middle;
 }
 
-#contact-form {
-	padding: 4% 0%;
+#contact-form-list {
 	list-style: none;
 }
 
@@ -252,5 +251,10 @@ a:hover {
 
 	.portfolio-cell {
 		margin: 0%;
+	}
+
+	#contact-form {
+		display: block;
+		text-align: center;
 	}
 }
