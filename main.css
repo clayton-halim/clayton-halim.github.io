@@ -176,7 +176,7 @@ a:hover {
 
 #body-wrapper {
 	margin: 0 auto;
-	padding: 2% 4%;
+	padding: 2% 0%;
 }
 
 #about {
@@ -236,7 +236,7 @@ a:hover {
 		margin: 2% 0% 2% 0%;
 	}
 
-	#social-links {
+	.social-icons {
 		display: flex;
 		justify-content: center;
 	}
