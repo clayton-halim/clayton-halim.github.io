@@ -31,7 +31,9 @@
 			</header>
 			<div class="offset-anchor" id="about-anchor"></div>
 			<section class="overview mdl-grid side-padding" id="about">
-				<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet"><img id="avatar" src="images/avatar.jpg" alt="avatar"></div>
+				<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+					<img id="avatar" src="images/avatar.jpg" alt="avatar">
+				</div>
 				<div class="mdl-cell mdl-cell--8-col" id="about-content">
 					<h1 class="title" id="intro-title">Clayton Halim</h1>
 						<article>
@@ -154,36 +156,43 @@
 			<section class="overview side-padding" id="contact">
 				<h1 class="title">Contact</h1>
 				<article class="description">
-					<p class="accent-text"><em>How's it going?</em></p>
-					<p>Send me a message for any questions, business inquiries, or if you just want to chat!</p>
-					<div id="contact-form">
-						<form action="https://formspree.io/clayton.halim12@gmail.com" method="POST">
-							<ul id="contact-form-list">
-								<li>
-									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-										<input class="mdl-textfield__input" type="text" id="contact-name" name="name">
-										<label class="mdl-textfield__label" for="contact-name">Name</label>	
-									</div>
-								</li>
-								<li>
-									<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-										<input class="mdl-textfield__input" type="email" id="contact-email" name="email">
-										<label class="mdl-textfield__label" for="contact-email">Email</label>
-									</div>
-								</li>
-								<li>
-									<div class="mdl-textfield mdl-js-textfield">
-										<textarea class="mdl-textfield__input" type="text" rows= "3" id="contact-msg" name="message"></textarea>
-										<label class="mdl-textfield__label" for="contact-msg">Message</label>
-									</div>
-								</li>
-								<li>
-									<button type="submit" value="Send" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-										Send Message
-									</button>
-								</li>
-							</ul>
-						</form>	
+					<div class="mdl-grid mdl-grid--no-spacing">
+						<div class="mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet">
+							<p class="accent-text"><em>How's it going?</em></p>
+							<p>Send me a message for any questions, business inquiries, or if you just want to chat!</p>
+							<div id="contact-form">
+								<form action="https://formspree.io/clayton.halim12@gmail.com" method="POST">
+									<ul id="contact-form-list">
+										<li>
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="text" id="contact-name" name="name">
+												<label class="mdl-textfield__label" for="contact-name">Name</label>	
+											</div>
+										</li>
+										<li>
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="email" id="contact-email" name="email">
+												<label class="mdl-textfield__label" for="contact-email">Email</label>
+											</div>
+										</li>
+										<li>
+											<div class="mdl-textfield mdl-js-textfield">
+												<textarea class="mdl-textfield__input" type="text" rows= "3" id="contact-msg" name="message"></textarea>
+												<label class="mdl-textfield__label" for="contact-msg">Message</label>
+											</div>
+										</li>
+										<li>
+											<button type="submit" value="Send" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+												Send Message
+											</button>
+										</li>
+									</ul>
+								</form>	
+							</div>
+						</div>
+						<div class="mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet">
+							<img id="contact-thanks" src="images/panda-thanks.jpg">
+						</div>
 					</div>		
 				</article>
 			</section>

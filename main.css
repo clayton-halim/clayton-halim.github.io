@@ -226,6 +226,11 @@ a:hover {
 	padding-top: 4%;
 }
 
+#contact-thanks {
+	display: flex;
+	margin: 5% auto;
+}
+
 
 @media only screen and (max-width: 840px) {
 	h1 {
