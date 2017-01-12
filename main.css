@@ -67,6 +67,13 @@ h1 {
 	margin-bottom: 1%;
 }
 
+.subtitle {
+	font-weight: bold;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 2%;
+}
+
 #intro-title {
 	font-size: 60px;
 }
@@ -84,6 +91,10 @@ p {
 
 .accent-text {
 	color: #00BCD4;
+}
+
+.accent-text-2 {
+	color: #E0F7FA;
 }
 
 header {
@@ -215,9 +226,30 @@ a:hover {
 	padding-right: 4% !important;
 }
 
-.project-card {
-	display: flex;
-	justify-content: center;
+.project-cell {
+	padding: 2% 0%;
+}
+
+.project-text {
+	color: white;
+}
+
+.project-more-text {
+	background-color: #263238;
+	text-align: center;
+}
+
+.project-description {
+	margin: 10% 0% 2% 0%;
+}
+
+.project-image {
+	height: auto; 
+	max-width: 100%;
+}
+
+#osslt-project {
+	background-color: #FF4081;
 }
 
 #contact {
@@ -265,6 +297,16 @@ a:hover {
 	}	
 
 	.portfolio-cell {
+		margin: 0%;
+	}
+
+
+	.subtitle {
+		text-align: center;
+	}
+
+	.project-description {
+		text-align: center;
 		margin: 0%;
 	}
 
