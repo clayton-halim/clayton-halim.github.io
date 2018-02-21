@@ -1,196 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Material Design Lite -->
-	<link rel="stylesheet" href="./mdl/material.min.css">
-	<script src="./mdl/material.min.js"></script>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<!-- -->
-	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-	<link rel="icon" href="favicon.png" type="image/x-icon">
-	<link rel="stylesheet" href="main.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102743286-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-102743286-1');
-    </script>
+---
+layout: main
+---
 
-    <title>Clayton Halim</title>
-  </head>
-	<body>
-		<section id="body-wrapper">
-			<header>
-				<nav id="header-nav">
-					<div id="nav-links">
-						<a class="nav-link smoothScroll" href="#contact-anchor">Contact</a>
-						<a class="nav-link smoothScroll" href="#portfolio-anchor">Portfolio</a>
-						<a class="nav-link smoothScroll" href="#projects-anchor">Projects</a>
-						<a class="nav-link smoothScroll" href="#about-anchor">About</a>
-						<a class="nav-link" href="http://suddenclay.tumblr.com">Blog</a>
-					</div>
-				</nav>
-			</header>
-			<div class="offset-anchor" id="about-anchor"></div>
-			<section class="overview mdl-grid side-padding" id="about">
-				<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
-					<img id="avatar" src="images/avatar.jpg" alt="avatar">
-				</div>
-				<div class="mdl-cell mdl-cell--8-col" id="about-content">
-					<h1 class="title" id="intro-title">Clayton Halim</h1>
-						<article>
-							<p class="accent-text"><em>Currently searching for a catch phrase</em></p>
-							<br>
-							<p>Hi, I like data, languages, photography, programming, volleyball,</p>
-							<p>but talk to me about anything really. You can see all that I'm up to here!</p>
-							<br>
-							<p>I'm also studying computer science &amp; statistics at the University of Waterloo.</p>
-							<div class="mdl-grid mdl-grid--no-spacing social-links">
-								<span class="mdl-cell mdl-cell--2-col social-icons">
-									<a class="social-link" href="https://www.linkedin.com/in/clayton-halim">
-										<img class="social-icon" src="images/linked-in.svg" alt="Linkedin"> Linkedin
-									</a>
-								</span>
-								<span class="mdl-cell mdl-cell--2-col social-icons">
-									<a class="social-link" href="https://www.github.com/clayton-halim">
-										<img class="social-icon" src="images/github.svg" alt="Github"> Github
-									</a>
-								</span>
-								<span class="mdl-cell mdl-cell--2-col social-icons">
-									<a class="social-link" href="https://www.flickr.com/gp/146263860@N02/659795">
-										<img class="social-icon" src="images/flickr.svg" alt="Flickr"> Flickr
-									</a>
-								</span>
-							</div>
-						</article>
-					</div>
-				</div>
-			</section>
-			<div class="offset-anchor" id="projects-anchor"></div>
-			<section class="overview" id="projects">
-				<h1 class="title side-padding">Projects</h1>
-				<div class="mdl-grid mdl-grid--no-spacing" id="osslt-project">
-					<div class="mdl-cell mdl-cell--stretch mdl-cell--6-col mdl-cell--8-col-tablet side-padding project-cell">
-						<h2 class="subtitle">OSSLT Pass Classifier</h2>
-						<img class="project-img" src="https://68.media.tumblr.com/a94fc05cf6f9556e8ec50fad2b17307e/tumblr_inline_ojmon4h4MU1uz3q86_540.png">
-					</div>
-					<div class="mdl-cell mdl-cell--stretch mdl-cell--6-col mdl-cell--8-col-tablet side-padding project-cell">
-						<div class="project-description">
-							<p class="project-text">A classifier that identifies whether a student will pass the Ontario standardized literacy test on their first try using logistic regression.</p>
-							<br>
-							<p class="project-text">Data set based on real school data, including features such as English as a first language, and English averages.</p>
-							<br>
-							<p class="project-more-text accent-text-2">
-								<a href="https://github.com/clayton-halim/osslt-pass-classifier" class="accent-text-2">Check it out on Github</a>  
-							      •  
-								<a href="http://suddenclay.tumblr.com/post/155732024993/logistic-regression-on-a-school-data-set" class="accent-text-2">Read more</a>
-							</p>
-						</div>
-					</div>
-				</div>
-                <div class="mdl-grid mdl-grid--no-spacing" id="motion-analysis-project">
-					<div class="mdl-cell mdl-cell--stretch mdl-cell--6-col mdl-cell--8-col-tablet side-padding project-cell">
-						<h2 class="subtitle">Arduino 1D Motion Analyser</h2>
-						<img class="project-img" src="https://68.media.tumblr.com/7b9be17bca9bfb02f1a775f688ff9e6c/tumblr_inline_okj41jmV201uz3q86_540.png">
-					</div>
-					<div class="mdl-cell mdl-cell--stretch mdl-cell--6-col mdl-cell--8-col-tablet side-padding project-cell">
-						<div class="project-description">
-							<p class="project-text">An ultrasonic sensor hooked up to an Arduino to analyze the oscillating motion of a mass on a spring.</p>
-							<br>
-							<p class="project-text">My first attempt at using hardware and using it to do some physics! More specifically, determine the coefficient of decay for its oscillation.</p>
-							<br>
-							<p class="project-more-text accent-text-2">
-								<a href="https://github.com/clayton-halim/Arduino-Motion-Tracker" class="accent-text-2">Check it out on Github</a>  
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<div class="offset-anchor" id="portfolio-anchor"></div>
-			<section class="overview" id="portfolio">
-				<h1 class="title side-padding">Portfolio</h1>
-				<div id="portfolio-grid" class="mdl-grid mdl-grid--no-spacing">			
-					<div class="mdl-cell mdl-cell--stretch mdl-cell--4-col portfolio-cell"
-						 style="background-image: url(https://68.media.tumblr.com/e0d704672d0516da7e771bd6d50ff384/tumblr_oih23m5bNX1vkux6qo2_r1_1280.jpg);">
-						<img class="portfolio-img" src="https://68.media.tumblr.com/e0d704672d0516da7e771bd6d50ff384/tumblr_oih23m5bNX1vkux6qo2_r1_1280.jpg">
-					</div>
-					<div class="mdl-cell mdl-cell--stretch mdl-cell--4-col portfolio-cell"
-						 style="background-image: url(https://68.media.tumblr.com/035d1db19d640d546dcff47efdc751b3/tumblr_oih23m5bNX1vkux6qo1_1280.jpg);">
-						<img class="portfolio-img" src="https://68.media.tumblr.com/035d1db19d640d546dcff47efdc751b3/tumblr_oih23m5bNX1vkux6qo1_1280.jpg">
-					</div>
-					<div class="mdl-cell mdl-cell--stretch mdl-cell--4-col portfolio-cell"
-						 style="background-image: url(https://68.media.tumblr.com/107f2fca3854bef56b123b79e82358ca/tumblr_oih23m5bNX1vkux6qo3_r1_1280.jpg);">
-						<img class="portfolio-img" src="https://68.media.tumblr.com/107f2fca3854bef56b123b79e82358ca/tumblr_oih23m5bNX1vkux6qo3_r1_1280.jpg">
-					</div>
-					<div class="mdl-cell mdl-cell--stretch mdl-cell--4-col portfolio-cell"
-						 style="background-image: url(https://68.media.tumblr.com/41a8488e702e288c34caaad52a5c5b8d/tumblr_oih23m5bNX1vkux6qo4_r2_1280.jpg);">
-						<img class="portfolio-img" src="https://68.media.tumblr.com/41a8488e702e288c34caaad52a5c5b8d/tumblr_oih23m5bNX1vkux6qo4_r2_1280.jpg">
-					</div>
-					<div class="mdl-cell mdl-cell--stretch mdl-cell--4-col portfolio-cell"
-						 style="background-image: url(https://68.media.tumblr.com/9bfaa58792754cb88d4509ca00369721/tumblr_oih23m5bNX1vkux6qo5_r2_540.jpg);">
-						<img class="portfolio-img" src="https://68.media.tumblr.com/9bfaa58792754cb88d4509ca00369721/tumblr_oih23m5bNX1vkux6qo5_r2_540.jpg">
-					</div>
-					<div class="mdl-cell mdl-cell--stretch mdl-cell--4-col portfolio-cell"
-						 style="background-image: url(https://68.media.tumblr.com/49072a2a373e92e701b7aaa09719bd07/tumblr_oih23m5bNX1vkux6qo6_r1_1280.jpg);">
-						<img class="portfolio-img" src="https://68.media.tumblr.com/49072a2a373e92e701b7aaa09719bd07/tumblr_oih23m5bNX1vkux6qo6_r1_1280.jpg">
-					</div>
-				</div>
-			</section>
-			<div class="offset-anchor" id="contact-anchor"></div>
-			<section class="overview side-padding" id="contact">
-				<h1 class="title">Contact</h1>
-				<article class="description">
-					<div class="mdl-grid mdl-grid--no-spacing">
-						<div class="mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet">
-							<p class="accent-text"><em>How's it going?</em></p>
-							<p>Send me a message for any questions, business inquiries, or if you just want to chat!</p>
-							<p>Alternatively, email me at clayton.halim12@gmail.com</p>
-							<div id="contact-form">
-								<form action="https://formspree.io/clayton.halim12@gmail.com" method="POST">
-									<ul id="contact-form-list">
-										<li>
-											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-												<input class="mdl-textfield__input" type="text" id="contact-name" name="name">
-												<label class="mdl-textfield__label" for="contact-name">Name</label>	
-											</div>
-										</li>
-										<li>
-											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-												<input class="mdl-textfield__input" type="email" id="contact-email" name="email">
-												<label class="mdl-textfield__label" for="contact-email">Email</label>
-											</div>
-										</li>
-										<li>
-											<div class="mdl-textfield mdl-js-textfield">
-												<textarea class="mdl-textfield__input" type="text" rows= "3" id="contact-msg" name="message"></textarea>
-												<label class="mdl-textfield__label" for="contact-msg">Message</label>
-											</div>
-										</li>
-										<li>
-											<button type="submit" value="Send" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-												Send Message
-											</button>
-										</li>
-									</ul>
-								</form>	
-							</div>
-						</div>
-						<div class="mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet">
-							<img id="contact-thanks" src="images/panda-thanks.jpg">
-						</div>
-					</div>		
-				</article>
-			</section>
-		</section>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="assets/scripts/smoothscroll.js"></script>
-	</body>
-</html>
-		
+<div id="main-content">
+    <div>
+        <div class="row">
+            <div class="seven columns">
+                <p><strong id="hi">Hi!</strong> I'm Clayton and I study <em>Computer Science</em> and <em>Statistics</em> at the University of Waterloo.</p>
+                <p>
+                I love getting involved in my community, and seeing how I can help others. Otherwise I really like to code, longboard, take photos, and write. Have a take a look at what I've made :)
+                </p>
+                {% include social.html %}
+            </div>
+            <div class="five columns">
+                <div class="log-block">
+                    <p class="log-title">CAPTAIN'S LOG</p>
+                    <ul class="captains-log">
+                        {% assign postCount = 0 %}
+                        {% for years in site.data.log.years limit:5%}
+                            {% for months in years.months %}
+                                {% for days in months.days %}
+                                    {% for entries in days.entries %}
+                                        {% if postCount < 5 %}
+                                            <li><strong class="log-date">{{ months.month }} {{ days.day }}</strong> {{ entries.entry }}</li>
+                                            {% assign postCount = postCount | plus: 1 %}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                            {% endfor %}
+                        {% endfor %}
+                    </ul>
+                    <a class="accent read-more" href="log.html">More...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
