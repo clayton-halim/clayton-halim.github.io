@@ -3,35 +3,33 @@ layout: main
 ---
 
 <div id="main-content">
-    <div>
-        <div class="row">
-            <div class="seven columns">
-                <p><strong id="hi">Hi!</strong> I'm Clayton and I study <em>Computer Science</em> and <em>Statistics</em> at the University of Waterloo.</p>
-                <p>
-                I love getting involved in my community, and seeing how I can help others. Otherwise I really like to code, longboard, take photos, and write. Have a take a look at what I've made :)
-                </p>
-                {% include social.html %}
-            </div>
-            <div class="five columns">
-                <div class="log-block">
-                    <p class="log-title">CAPTAIN'S LOG</p>
-                    <ul class="captains-log">
-                        {% assign postCount = 0 %}
-                        {% for years in site.data.log.years limit:5%}
-                            {% for months in years.months %}
-                                {% for days in months.days %}
-                                    {% for entries in days.entries %}
-                                        {% if postCount < 5 %}
-                                            <li><strong class="log-date">{{ months.month }} {{ days.day }}</strong> {{ entries.entry }}</li>
-                                            {% assign postCount = postCount | plus: 1 %}
-                                        {% endif %}
-                                    {% endfor %}
+    <div class="row">
+        <div class="col-xs">
+            <p><strong id="hi">Hi!</strong> I'm Clayton and I study <em>Computer Science</em> and <em>Statistics</em> at the University of Waterloo.</p>
+            <p>
+            I love getting involved in my community, and seeing how I can help others. Otherwise I really like to code, longboard, take photos, and write. Have a take a look at what I've made :)
+            </p>
+            {% include social.html %}
+        </div>
+        <div class="col-xs">
+            <div class="log-block">
+                <p class="log-title">CAPTAIN'S LOG</p>
+                <ul class="captains-log">
+                    {% assign postCount = 0 %}
+                    {% for years in site.data.log.years limit:5%}
+                        {% for months in years.months %}
+                            {% for days in months.days %}
+                                {% for entries in days.entries %}
+                                    {% if postCount < 5 %}
+                                        <li><strong class="log-date">{{ months.month }} {{ days.day }}</strong> {{ entries.entry }}</li>
+                                        {% assign postCount = postCount | plus: 1 %}
+                                    {% endif %}
                                 {% endfor %}
                             {% endfor %}
                         {% endfor %}
-                    </ul>
-                    <a class="accent read-more" href="{{ site.baseurl }}log">More...</a>
-                </div>
+                    {% endfor %}
+                </ul>
+                <a class="accent read-more" href="{{ site.baseurl }}log">More...</a>
             </div>
         </div>
     </div>
