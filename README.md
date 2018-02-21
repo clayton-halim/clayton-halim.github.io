@@ -1,2 +1,2 @@
-# blog
+# Personal Website
 Now statically generated
