@@ -1,0 +1,16 @@
+---
+layout: main
+---
+
+<ul class="captains-log">
+    {% for years in site.data.log.years %}
+        <li> <h1>{{ years.year }}</h1> </li>
+        {% for months in years.months %}
+            {% for days in months.days %}
+                {% for entries in days.entries %}
+                    <li><strong class="log-date">{{ months.month }} {{ days.day }}</strong> {{ entries.entry }}</li>
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+</ul>

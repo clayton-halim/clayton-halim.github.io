@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: https://clayton-halim.github.io/
+exclude: ['README.md']
+

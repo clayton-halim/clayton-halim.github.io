@@ -1,0 +1,101 @@
+{
+  "years": [
+    {
+      "year": "2018",
+      "months": [
+        {
+          "month": "Feb",
+          "days": [
+            {
+              "day": "20",
+              "entries": [
+                {
+                  "entry": "Started website rebranding"
+                },
+                {
+                  "entry": "Hack the North logistics interview"
+                }
+              ]
+            },
+            {
+              "day": "14",
+              "entries": [
+                {
+                  "entry": "First Kinkaku dinner"
+                }
+              ]
+            },
+            {
+              "day": "10",
+              "entries": [
+                {
+                  "entry": "Grace's Lunar New Years dance"
+                }
+              ]
+            },
+            {
+              "day": "09",
+              "entries": [
+                {
+                  "entry": "Math formal!"
+                }
+              ]
+            },
+            {
+              "day": "01",
+              "entries": [
+                {
+                  "entry": "Held a Data Science workshop with ~100 attendees!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "month": "Jan",
+          "days": [
+            {
+              "day": "03",
+              "entries": [
+                {
+                  "entry": "First day of 2B"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2017",
+      "months": [
+        {
+          "month": "Dec",
+          "days": [
+            {
+              "day": "11",
+              "entries": [
+                {
+                  "entry": "19th birthday! Got bbt with Melanie"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "month": "Sep",
+          "days": [
+            {
+              "day": "03",
+              "entries": [
+                {
+                  "entry": "Day 1 of moving new first years in!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

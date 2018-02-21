@@ -1,0 +1,15 @@
+---
+layout: main
+---
+
+<p>I write about all kinds of things, have a look at the tags if you're looking for specific topics.</p>
+<hr>
+<ul id="blog-listing">
+    {% for post in site.posts %}
+        <h4 class="blog-title"><a class="accent" href="{{ post.url }}">{{ post.title }}</a></h4>
+        <h6 class="blog-date">{{ post.date | date: "%B %d, %Y" }}</h6>
+        <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        <a class="accent read-more" href="{{ post.url }}">Read more...</a>
+        <hr>
+    {% endfor %}
+</ul>

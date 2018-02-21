@@ -1,0 +1,170 @@
+a {
+    text-decoration: none;
+    color: #FF80AB;
+    transition: 0.2s color;
+}
+
+.accent {
+    color: #FF80AB;
+}
+
+.hover-accent:hover {
+    color: black;
+}
+
+#avatar {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+}
+
+.blog-date {
+    font-size: 80%;
+}
+
+.blog-img {
+    display: table;
+    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+}
+
+.blog-title {
+    margin: 0;
+}
+
+body {
+    font-family: "noto sans";
+}
+
+#body-wrapper {
+    padding: 5% 20%;
+}
+
+#blog-listing {
+    list-style: none;5
+}
+
+.captains-log {
+    list-style: none;
+}
+
+code {
+    font-family: monospace;
+}
+
+#hi {
+    color: #FF80AB;
+}
+
+.hlist {
+    list-style-type: none;
+}
+
+.hlist-item {
+    display: inline;
+}
+
+#instagram, #kaggle, #github, #linkedin, #email {
+    transition: 0.2s color;
+}
+
+#instagram:hover {
+    color: #8a3ab9;
+}
+
+#kaggle {
+    font-family: roboto;
+}
+
+#kaggle:hover {
+    color: #429bf4;
+}
+
+#github:hover {
+    color: #333;
+}
+
+#linkedin:hover {
+    color: #0077b5;
+}
+
+#email:hover  {
+    color: #F44336;
+}
+
+em {
+    font-style: italic;
+}
+
+#top-nav {
+    margin-bottom: 5%;
+}
+
+.log-block {
+    display: table;
+    margin: 0 auto;
+}
+
+.log-date {
+    padding-right: 2%;
+}
+
+.log-title {
+    font-weight: bold;
+    font-family: "Tinos";
+}
+
+.navbar-wrapper {
+    font-weight: bold;
+    width: auto;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #FF80AB;
+}
+
+#main-content {
+}
+
+p {
+    line-height: 1.9;
+}
+
+.read-more {
+    transition: 0.2s color;
+}
+
+.read-more:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.social-bar {
+    margin-top: 2%;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #999999;
+    padding-right: 1%;
+    font-size: 1.2em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.tag {
+    display: inline;
+    font-family: "monospace";
+}
