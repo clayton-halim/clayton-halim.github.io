@@ -264,4 +264,9 @@ strong {
     #body-wrapper {
         padding: 5% 5%;
     }
+
+    .log-block {
+        display: block;
+        margin: 0;
+    }
 }
