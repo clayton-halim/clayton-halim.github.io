@@ -3,14 +3,12 @@ layout: main
 ---
 
 <ul class="captains-log">
-    {% for years in site.data.log.years %}
-        <li> <h1>{{ years.year }}</h1> </li>
-        {% for months in years.months %}
-            {% for days in months.days %}
-                {% for entries in days.entries %}
-                    <li><strong class="log-date">{{ months.month }} {{ days.day }}</strong> {{ entries.entry }}</li>
-                {% endfor %}
-            {% endfor %}
-        {% endfor %}
+    {% for log in site.data.log %}
+        {% assign currentYear = log.date | date: "%Y" %}
+        {% if currentYear != prevYear %}
+            <li><h3 class="log-year">{{ currentYear }}</h3></li>
+            {% assign prevYear = currentYear %}
+        {% endif %}
+        <li><strong class="log-date">{{ log.date | date: "%b %d" }}</strong> {{ log.entry }}</li>
     {% endfor %}
 </ul>
