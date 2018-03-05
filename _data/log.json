@@ -1,72 +1,70 @@
 [
-  [
-    {
-      "date": "2018-03-04 23:04:55",
-      "entry": "Ate some delicious wings with my team after the hackathon"
-    },
-    {
-      "date": "2018-03-04 23:04:07",
-      "entry": "Created StudyStart as our StarterHacks hack"
-    },
-    {
-      "date": "2018-03-03 10:55:49",
-      "entry": "StarterHacks Day 1!"
-    },
-    {
-      "date": "2018-02-28 02:39:23",
-      "entry": "Got rejected for the Hack the North logistics position"
-    },
-    {
-      "date": "2018-02-23 23:16:05",
-      "entry": "Went to the Key Club mid-winter rally with Cindy and Grace"
-    },
-    {
-      "date": "2018-02-22 21:39:45",
-      "entry": "Raphel and Ian come over to play some boardgames"
-    },
-    {
-      "date": "2018-02-22 14:37:37",
-      "entry": "Got new earphones"
-    },
-    {
-      "date": "2018-02-22 14:35:21",
-      "entry": "Slept for 15 hours"
-    },
-    {
-      "date": "2018-02-20",
-      "entry": "Started website rebranding"
-    },
-    {
-      "date": "2018-02-20",
-      "entry": "Hack the North logistics interview"
-    },
-    {
-      "date": "2018-02-14",
-      "entry": "First Kinkaku dinner"
-    },
-    {
-      "date": "2018-02-10",
-      "entry": "Grace's Lunar New Years dance"
-    },
-    {
-      "date": "2018-02-09",
-      "entry": "Math formal!!"
-    },
-    {
-      "date": "2018-02-01",
-      "entry": "Held a data science club workshop with ~100 attendees!"
-    },
-    {
-      "date": "2018-01-03",
-      "entry": "First day of 2B"
-    },
-    {
-      "date": "2017-12-11",
-      "entry": "19th birthday! Got bbt with Melanie"
-    },
-    {
-      "date": "2017-09-03",
-      "entry": "Day 1 of moving new first years in!"
-    }
-  ]
+  {
+    "date": "2018-03-04 23:04:55",
+    "entry": "Ate some delicious wings with my team after the hackathon"
+  },
+  {
+    "date": "2018-03-04 23:04:07",
+    "entry": "Created StudyStart as our StarterHacks hack"
+  },
+  {
+    "date": "2018-03-03 10:55:49",
+    "entry": "StarterHacks Day 1!"
+  },
+  {
+    "date": "2018-02-28 02:39:23",
+    "entry": "Got rejected for the Hack the North logistics position"
+  },
+  {
+    "date": "2018-02-23 23:16:05",
+    "entry": "Went to the Key Club mid-winter rally with Cindy and Grace"
+  },
+  {
+    "date": "2018-02-22 21:39:45",
+    "entry": "Raphel and Ian come over to play some boardgames"
+  },
+  {
+    "date": "2018-02-22 14:37:37",
+    "entry": "Got new earphones"
+  },
+  {
+    "date": "2018-02-22 14:35:21",
+    "entry": "Slept for 15 hours"
+  },
+  {
+    "date": "2018-02-20",
+    "entry": "Started website rebranding"
+  },
+  {
+    "date": "2018-02-20",
+    "entry": "Hack the North logistics interview"
+  },
+  {
+    "date": "2018-02-14",
+    "entry": "First Kinkaku dinner"
+  },
+  {
+    "date": "2018-02-10",
+    "entry": "Grace's Lunar New Years dance"
+  },
+  {
+    "date": "2018-02-09",
+    "entry": "Math formal!!"
+  },
+  {
+    "date": "2018-02-01",
+    "entry": "Held a data science club workshop with ~100 attendees!"
+  },
+  {
+    "date": "2018-01-03",
+    "entry": "First day of 2B"
+  },
+  {
+    "date": "2017-12-11",
+    "entry": "19th birthday! Got bbt with Melanie"
+  },
+  {
+    "date": "2017-09-03",
+    "entry": "Day 1 of moving new first years in!"
+  }
 ]
