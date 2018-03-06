@@ -10,6 +10,8 @@ Social media has become a medium for people to show the best parts of their life
 
 Everyone goes through failures and I want to share mine to show a different prespective. Note these are _based on memory_ and some details are vague for privacy reasons. Some failures could be elaborated a lot more, but then don't really follow the list format.
 
+Inspired by [*cv of faliures*](https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf).
+
 ### 2018
 - Failed in improving to be a better boyfriend
 - Didn't win any of the prizes we applied for in StarterHacks
