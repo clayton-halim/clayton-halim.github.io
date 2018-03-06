@@ -16,7 +16,7 @@ layout: main
         <div class="col-xs-12 col-md-12">
             <img id="avatar" src="{{ base.url }}/assets/images/avatar.png">
             {% for post in site.posts limit:1 %}
-                <p id="latest-title"><strong>Latest post:</strong><a href="{{ post.url }}">{{ post.title }}</p>
+                <p id="latest-title"><strong>Latest post:</strong><a class="hover-accent" href="{{ post.url }}">{{ post.title }}</p>
             {% endfor %}
         </div>
     </div>
