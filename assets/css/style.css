@@ -274,7 +274,7 @@ strong {
   margin-top: 5%;
   padding: 2.5%;
   vertical-align: top;
-  border: 1px solid black;
+  border: 0px solid black;
   border-radius: 5px;
   z-index: 100;
   -webkit-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.1);
