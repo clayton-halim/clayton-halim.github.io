@@ -14,15 +14,7 @@ layout: main
             </div>
         </div>
         <div class="col-xs-12 col-md-6">
-            <div class="log-block" style="">
-                <p class="log-title">CAPTAIN'S LOG</p>
-                <ul class="captains-log">
-                    {% for log in site.data.log  limit:5 %}
-                    <li><strong class="log-date">{{ log.date || date: "%b %d" }}</strong> {{ log.entry }}</li>
-                    {% endfor %}
-                </ul>
-                <a class="accent read-more" href="{{ site.baseurl }}log">More...</a>
-            </div>
+            {% include captains_log.html %} 
         </div>
     </div>
 </div>
