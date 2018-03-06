@@ -14,7 +14,7 @@ Everyone goes through failures and I want to share mine to show a different pres
 - Failed in improving to be a better boyfriend
 - Didn't win any of the prizes we applied for in StarterHacks
 - Got rejected from the Hack the North logistics position after a 2nd interview
-- Personally rejected from companies I networked with due to lack of experience (plus another 50 from coop)
+- Personally rejected from companies I networked with due to lack of experience
 - Got a 48 on my CS 240 midterm
 
 ### 2017
