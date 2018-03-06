@@ -100,9 +100,10 @@ a {
 }
 
 #avatar {
-    height: 5em;
-    width: 5em;
-    border-radius: 50%;
+    height: 12em;
+    width: 10em;
+    max-width: 100%;
+    display: inline;
 }
 
 .blog-date {
@@ -266,6 +267,17 @@ strong {
     display: inline-block;
     vertical-align: middle;
     margin-right: 0.5rem;
+}
+
+#latest-title {
+  display: inline-flex;
+  margin-top: 5%;
+  vertical-align: top;
+}
+
+#latest-title strong {
+  vertical-align: top;
+  margin-right: 1rem;
 }
 
 @media only screen and (max-width: 1100px) {
