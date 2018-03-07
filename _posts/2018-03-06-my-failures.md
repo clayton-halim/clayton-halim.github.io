@@ -8,7 +8,7 @@ tags: [self]
 
 Social media has become a medium for people to show the best parts of their life, however it's very easy to interpret this as how someone's life always is. I've had people tell me things like "You're a data science prodigy", "Now that you're in university, you have everything figured out", "You're so likeable, you have many friends", but really it's not like that. 
 
-Everyone goes through failures and I want to share mine to show a different prespective. Note these are _based on memory_ and some details are vague for privacy reasons. Some failures could be elaborated a lot more, but then don't really follow the list format.
+Everyone goes through failures and I want to share mine to show a different prespective. Note these are _based on memory_ and some **details are vague** for privacy reasons. Some failures could be elaborated a lot more, but then don't really follow the list format.
 
 Inspired by [*cv of faliures*](https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf).
 
