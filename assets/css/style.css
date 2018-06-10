@@ -127,7 +127,7 @@ body {
 }
 
 #body-wrapper {
-    padding: 5% 20%;
+    padding: 5% 30%;
 }
 
 #blog-listing {
@@ -264,7 +264,6 @@ strong {
 
 .logo {
     display: inline-block;
-    vertical-align: middle;
     margin-right: 0.75rem;
     font-family: monospace;
     font-size: large;
