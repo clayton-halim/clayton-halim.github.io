@@ -107,6 +107,7 @@ a {
 }
 
 .blog-date {
+    font-family: "Roboto Slab";
     margin-top: 0.5rem;
     font-size: 80%;
 }
@@ -118,7 +119,12 @@ a {
     width: 90%;
 }
 
+.blog-post {
+    font-family: "Roboto Slab";
+}
+
 .blog-title {
+    font-family: "Roboto Slab";
     margin: 0;
 }
 
