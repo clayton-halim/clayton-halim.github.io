@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My Faliures
+title: My Failures
 date: 2018-03-06 00:01:44 -500
-excerpt: A list of some of my faliures in my life
+excerpt: A list of some of my failures in my life
 tags: [self]
 ---
 
@@ -10,10 +10,9 @@ Social media has become a medium for people to show the best parts of their life
 
 Everyone goes through failures and I want to share mine to show a different prespective. Note these are _based on memory_ and some **details are vague** for privacy reasons. Some failures could be elaborated a lot more, but then don't really follow the list format.
 
-Inspired by [*cv of faliures*](https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf).
+Inspired by [*cv of failures*](https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf).
 
 ### 2018
-- Failed in improving to be a better boyfriend
 - Didn't win any of the prizes we applied for in StarterHacks
 - Got rejected from the Hack the North logistics position after a 2nd interview
 - Personally rejected from companies I networked with due to lack of experience
