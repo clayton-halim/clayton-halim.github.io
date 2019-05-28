@@ -106,7 +106,7 @@ a {
 }
 
 .blog-date {
-    font-family: "Roboto Slab";
+    font-family: "Lora";
     margin-top: 0.5rem;
     font-size: 1em;
     color: #777;
@@ -120,11 +120,12 @@ a {
 }
 
 .blog-post {
-    font-family: "Roboto Slab";
+    margin-top: 4em;
+    font-family: "Lora";
 }
 
 .blog-title {
-    font-family: "Roboto Slab";
+    font-family: "Lora";
     font-size: 2.4em;
     margin: 0;
 }
@@ -153,20 +154,12 @@ code {
     display: inline;
 }
 
-#instagram, #kaggle, #github, #linkedin, #email {
+#instagram, #github, #linkedin, #email {
     transition: 0.2s color;
 }
 
 #instagram:hover {
     color: #8a3ab9;
-}
-
-#kaggle {
-    font-family: roboto;
-}
-
-#kaggle:hover {
-    color: #429bf4;
 }
 
 #github:hover {
@@ -187,20 +180,6 @@ em {
 
 #top-nav {
     margin-bottom: 5%;
-}
-
-.log-block {
-    display: table;
-    margin: 0 auto;
-}
-
-.log-date {
-    padding-right: 2%;
-}
-
-.log-title {
-    font-weight: bold;
-    font-family: "Tinos";
 }
 
 .navbar-wrapper {
@@ -252,10 +231,6 @@ strong {
 .tag {
     display: inline;
     font-family: "monospace";
-}
-
-.log-year {
-    margin-top: 2rem;
 }
 
 .logo {
