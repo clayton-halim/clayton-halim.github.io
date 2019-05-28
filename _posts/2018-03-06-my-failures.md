@@ -1,21 +1,21 @@
 ---
 layout: post
-title: My Failures
+title: My Failures and Disappointments
 date: 2018-03-06 00:01:44 -500
-excerpt: A list of some of my failures in my life
+excerpt: A list of some of my failures and Disapointments in my life
 tags: [self]
 ---
 
-Social media has become a medium for people to show the best parts of their life, however it's very easy to interpret this as how someone's life always is. I've had people tell me things like "You're a data science prodigy", "Now that you're in university, you have everything figured out", "You're so likeable, you have many friends", but really it's not like that. 
+Social media has become a medium for people to show the best parts of their life, however it's very easy to interpret this as how someone's life always is. I've had people tell me things like "You're a data science prodigy", "Now that you're in university, you have everything figured out", but it's easy to make quick comments that aren't necessarily true.
 
-Everyone goes through failures and I want to share mine to show a different prespective. Note these are _based on memory_ and some **details are vague** for privacy reasons. Some failures could be elaborated a lot more, but then don't really follow the list format.
+Everyone fails to meet their own expectations at times and I want to share mine to show a different prespective. Note these are _based on memory_ and some **details are vague** for privacy reasons. Some could be elaborated a lot more, but then don't really follow the list format.
 
 Inspired by [*cv of failures*](https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf).
 
 ### 2018
-- Didn't win any of the prizes we applied for in StarterHacks
+- Didn't win any of the prizes we applied for in StarterHacks that we thought we had a really good shot at
 - Got rejected from the Hack the North logistics position after a 2nd interview
-- Personally rejected from companies I networked with due to lack of experience
+- Personally rejected and told I wasn't good enough from companies I tried to network with
 - Got a 48 on my CS 240 midterm
 
 ### 2017
@@ -32,9 +32,9 @@ Inspired by [*cv of failures*](https://www.princeton.edu/~joha/Johannes_Haushofe
 - Got 50s in my MATH 135 and MATH 137 midterms because I underestimated university math
 - Deferred to Mathematics from Computer Science for my University of Waterloo application
 - Predicted IB grade dropped by 5 marks (out of 45)
-- Lost contact with a friend from abroad because I suck at keeping in touch
+- Lost contact with a friend from abroad because keeping in touch is not my strength
 - Rejected from high school's DECA team
-- Rejected by girl that was a good friend of mine
+- Rejected by a girl that was a good friend of mine
 
 ### 2015
 - Felt alone as all my friends were in a relationship
