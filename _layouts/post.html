@@ -14,7 +14,7 @@
         <h5 class="blog-date">{{ page.date | date: "%B %d, %Y"}}</h5>
         <br>
         {% for tag in page.tags %}
-            <code class="tag blog-title">#{{ tag }}</code>
+            <code class="tag">#{{ tag }}</code>
         {% endfor %}
         <hr>
         {{content}}
