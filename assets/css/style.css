@@ -6,14 +6,6 @@ p {
   margin-top: 0; 
 }
 
-ul {
-  list-style: circle outside; 
-}
-
-ol {
-  list-style: decimal outside; 
-}
-
 code {
   padding: .2rem .5rem;
   margin: 0 .2rem;
