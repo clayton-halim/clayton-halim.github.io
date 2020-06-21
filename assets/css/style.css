@@ -63,8 +63,10 @@ a {
     display: inline;
 }
 
-#body-wrapper {
-    padding: 5% 5%;
+#content-wrapper {
+    max-width: 38em;
+    margin: 0 auto;
+    padding: 2em 1.5em;
 }
 
 .blog-date {
@@ -252,14 +254,8 @@ strong {
 
 /* Tablet Styles */
 @media only screen and (min-width: 768px) {
-    #body-wrapper {
-        padding: 5% 20%;
-    }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-    #body-wrapper {
-        padding: 5% 30%;
-    }
 }
