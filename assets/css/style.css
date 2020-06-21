@@ -55,14 +55,6 @@ a {
     color: black;
 }
 
-#avatar {
-    height: 6em;
-    width: 6em;
-    border-radius: 50%;
-    max-width: 100%;
-    display: inline;
-}
-
 #content-wrapper {
     max-width: 38em;
     margin: 0 auto;
