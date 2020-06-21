@@ -13,5 +13,7 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Lora|Noto+Sans&display=swap" rel="stylesheet">
 <link href="https://use.fontawesome.com/4c9066f1a6.css" media="all" rel="stylesheet">
-{% include google-analytics.html %}
+{% if jekyll.environment == "production" %}
+    {% include google-analytics.html %}
+{% endif %}
 <title>clayton</title>
