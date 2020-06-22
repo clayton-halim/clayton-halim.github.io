@@ -151,7 +151,7 @@ em {
 .navbar-wrapper {
     display: flex;
     width: auto;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 .navbar {
@@ -164,7 +164,7 @@ em {
     margin: 0;
 }
 
-.navbar > .hlist {
+.navbar .hlist {
     margin: 0.2em 0;
 }
 
