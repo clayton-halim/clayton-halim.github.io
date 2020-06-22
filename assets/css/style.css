@@ -8,6 +8,7 @@
     --pink: #F582AE;
     --light-gray: #999999;
     --dark-gray: #777;
+    --line-height: 1.6;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
 
 p {
   margin-top: 0;
+  line-height: var(--line-height);
 }
 
 code {
@@ -45,6 +47,14 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem; 
+}
+
+ul, ol {
+    line-height: var(--line-height);
+}
+
+li {
+    margin-bottom: 0.5em;
 }
 
 hr {
@@ -170,10 +180,6 @@ em {
     color: var(--pink);
 }
 
-p {
-    line-height: 1.9;
-}
-
 .read-more {
     transition: 0.2s color;
 }
@@ -228,6 +234,7 @@ strong {
 
 .post-entry {
     margin-bottom: 2em;
+    line-height: 1;
 }
 
 .post-title {
