@@ -63,6 +63,13 @@ a:hover {
     transition: 0.2s color;
 }
 
+#avatar {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .hover-accent:hover {
     color: black;
 }
@@ -114,6 +121,7 @@ body {
 
 .hlist-item {
     display: inline;
+    margin-right: 0.5em;
 }
 
 #instagram:hover {
@@ -136,21 +144,29 @@ em {
     font-style: italic;
 }
 
-#top-nav {
-    margin-bottom: 5%;
-}
-
 .navbar-wrapper {
-    font-weight: bold;
+    display: flex;
     width: auto;
+    margin-bottom: 4em;
 }
 
-.nav-bar {
+.navbar {
+    margin-left: 1em;
+}
+
+.navbar > p {
+    font-size: 1.1em;
+    font-weight: bold;
     margin: 0;
+}
+
+.navbar > .hlist {
+    margin: 0.2em 0;
 }
 
 .nav-link {
     color: black;
+    text-decoration: underline;
 }
 
 .nav-link:hover {
