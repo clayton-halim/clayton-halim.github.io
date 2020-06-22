@@ -1,5 +1,5 @@
 :root {
-    --background: #F8F8F8;
+    --background: #FDFFFC;
     --black: #000100;
     --white: #FDFFFC;
     --red: #D4353A;
@@ -56,15 +56,11 @@ hr {
 
 a {
     text-decoration: none;
-    color: var(--red);
+    color: var(--pink);
 }
 
 a:hover {
     transition: 0.2s color;
-}
-
-.accent {
-    color: var(--pink);
 }
 
 .hover-accent:hover {
