@@ -81,7 +81,6 @@ a:hover {
 }
 
 .blog-date {
-    font-family: "Lora";
     margin-top: 0.5rem;
     font-size: 1em;
     color: var(--dark-gray);
@@ -96,11 +95,9 @@ a:hover {
 
 .blog-post {
     margin-top: 4em;
-    font-family: "Lora";
 }
 
 .blog-title {
-    font-family: "Lora";
     font-size: 2.4em;
     margin: 0;
 }
@@ -204,7 +201,6 @@ strong {
 
 .tag {
     display: inline;
-    font-family: "monospace";
 }
 
 .logo {
