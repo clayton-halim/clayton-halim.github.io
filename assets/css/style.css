@@ -228,4 +228,7 @@ strong {
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+    #content-wrapper {
+        padding: 4em 1.5em;
+    }
 }
