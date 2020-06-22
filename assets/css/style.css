@@ -214,7 +214,7 @@ strong {
 }
 
 .post-date {
-    color: #777;
+    color: var(--dark-gray);
     font-weight: 500;
     font-size: 0.8em;
 }
