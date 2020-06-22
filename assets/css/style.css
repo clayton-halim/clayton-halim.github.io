@@ -15,7 +15,7 @@ body {
 }
 
 p {
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 code {
@@ -57,6 +57,9 @@ hr {
 a {
     text-decoration: none;
     color: var(--pink);
+}
+
+a:hover {
     transition: 0.2s color;
 }
 
@@ -115,10 +118,6 @@ body {
 
 .hlist-item {
     display: inline;
-}
-
-#instagram, #github, #linkedin, #email {
-    transition: 0.2s color;
 }
 
 #instagram:hover {
