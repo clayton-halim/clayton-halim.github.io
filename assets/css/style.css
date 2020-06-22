@@ -13,6 +13,7 @@
 
 body {
     background-color: var(--background);
+    font-family: "noto sans";
 }
 
 p {
@@ -108,12 +109,8 @@ a:hover {
 }
 
 .blog-title {
-    font-size: 2.4em;
+    font-size: 2em;
     margin: 0;
-}
-
-body {
-    font-family: "noto sans";
 }
 
 #blog-listing {
