@@ -2,7 +2,7 @@
     --background: #F8F8F8;
     --black: #000100;
     --white: #FDFFFC;
-    --red: #C1292E;
+    --red: #D4353A;
     --blue: #235789;
     --yellow: #F1D302;
     --pink: #F582AE;
@@ -56,7 +56,7 @@ hr {
 
 a {
     text-decoration: none;
-    color: var(--pink);
+    color: var(--red);
 }
 
 a:hover {
