@@ -26,6 +26,7 @@ code {
   background: #F1F1F1;
   border: 1px solid #E1E1E1;
   border-radius: 4px; 
+  font-family: monospace;
 }
 
 pre > code {
@@ -105,14 +106,6 @@ body {
 #blog-listing {
     padding: 0;
     list-style: none;
-}
-
-code {
-    font-family: monospace;
-}
-
-#hi {
-    color: var(--pink);
 }
 
 .hlist {
@@ -232,28 +225,6 @@ strong {
 
 .post-title {
     margin-bottom: 0.5em;
-}
-
-#latest-title {
-  display: inline-flex;
-  margin-top: 5%;
-  padding: 2.5%;
-  vertical-align: top;
-  border: 0px solid black;
-  border-radius: 5px;
-  z-index: 100;
-  -webkit-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.05);
-  -moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.05);
-  box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.05);
-}
-
-#latest-title strong {
-  vertical-align: top;
-  margin-right: 1rem;
-}
-
-#intro-text {
-    float: right;
 }
 
 /* Tablet Styles */
