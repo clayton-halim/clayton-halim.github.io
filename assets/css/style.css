@@ -1,5 +1,17 @@
+:root {
+    --background: #F8F8F8;
+    --black: #000100;
+    --white: #FDFFFC;
+    --red: #C1292E;
+    --blue: #235789;
+    --yellow: #F1D302;
+    --pink: #F582AE;
+    --light-gray: #999999;
+    --dark-gray: #777;
+}
+
 body {
-    background-color: #f8f8f8;
+    background-color: var(--background);
 }
 
 p {
@@ -38,17 +50,17 @@ hr {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1; 
+  border-top: 1px solid var(--light-gray); 
 }
 
 a {
     text-decoration: none;
-    color: #FF80AB;
+    color: var(--pink);
     transition: 0.2s color;
 }
 
 .accent {
-    color: #FF80AB;
+    color: var(--pink);
 }
 
 .hover-accent:hover {
@@ -65,7 +77,7 @@ a {
     font-family: "Lora";
     margin-top: 0.5rem;
     font-size: 1em;
-    color: #777;
+    color: var(--dark-gray);
 }
 
 .blog-img {
@@ -100,7 +112,7 @@ code {
 }
 
 #hi {
-    color: #FF80AB;
+    color: var(--pink);
 }
 
 .hlist {
@@ -154,7 +166,7 @@ em {
 }
 
 .nav-link:hover {
-    color: #FF80AB;
+    color: var(--pink);
 }
 
 p {
@@ -177,7 +189,7 @@ p {
 
 .social-link {
     text-decoration: none;
-    color: #999999;
+    color: var(--light-gray);
     padding-right: 1%;
     font-size: 1.2em;
 }
