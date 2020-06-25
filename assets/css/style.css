@@ -133,22 +133,6 @@ a:hover {
     margin-right: 0.5em;
 }
 
-#instagram:hover {
-    color: #8a3ab9;
-}
-
-#github:hover {
-    color: #333;
-}
-
-#linkedin:hover {
-    color: #0077b5;
-}
-
-#email:hover  {
-    color: #F44336;
-}
-
 em {
     font-style: italic;
 }
@@ -192,16 +176,29 @@ em {
 }
 
 .social-bar {
-    margin-top: 2%;
+    margin-top: 0.4em;
     padding: 0;
 }
 
 .social-link {
     text-decoration: none;
     color: var(--dark-gray);
-    padding-right: 1%;
+    padding-right: 0.2em;
     font-size: 1.2em;
 }
+
+#github:hover {
+    color: #333;
+}
+
+#linkedin:hover {
+    color: #0077b5;
+}
+
+#email:hover  {
+    color: #F44336;
+}
+
 
 strong {
     font-weight: bold;
