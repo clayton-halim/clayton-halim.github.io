@@ -4,27 +4,26 @@ layout: main
 
 {% include nav.html %}
 <div id="main-content">
-    <div id="about-box">
-        <div id="intro-text">
-            <p>
-                Hi I'm Clayton and I study Computer Science and Statistics at the University of Waterloo.
-                I love getting involved in my community and seeing how I can help others. Otherwise I really like to code, longboard, take photos, and write. Take a look at what I've made :)
-            </p>
-        </div>
-        {% include social.html %}
-    </div>
-    <hr/>
-    <div>
-        <h2 id="blog-header">Blog</h2>
+    <p>
+        Hi I'm Clayton! I'm a Computer Science and Statistics student at the University of Waterloo.
+    </p>
+    <p>
+        Currently a software developer intern at <a href="https://lifion.com/">Lifon</a>. Previously at <a href="https://tulip.co">Tulip</a> and <a href="https://monogramcc.com/">Monogram</a>.
+    </p>
+    {% include social.html %}
+</div>
+<hr/>
+<div>
+    <h2 id="blog-header">Blog</h2>
         <ul class="posts">
-        {% for post in site.posts limit:5 %}
-            <li class="post-entry">
-                <a class="post-link" href="{{ post.url }}">
-                    <div class="post-title">{{ post.title }}</div>
-                    <div class="post-date">{{ post.date | date: '%d %B %Y' }}</div>
-                </a>
-            </li>
-        {% endfor %}
+            {% for post in site.posts limit:5 %}
+                <li class="post-entry">
+                    <a class="post-link" href="{{ post.url }}">
+                        <div class="post-title">{{ post.title }}</div>
+                        <div class="post-date">{{ post.date | date: '%d %B %Y' }}</div>
+                    </a>
+                </li>
+            {% endfor %}
         </ul>
     </div>
 </div>
