@@ -187,6 +187,10 @@ em {
     font-size: 1.2em;
 }
 
+.social-link:hover {
+    text-decoration: none;
+}
+
 #github:hover {
     color: #333;
 }
