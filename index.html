@@ -12,18 +12,3 @@ layout: main
     </p>
     {% include social.html %}
 </div>
-<hr/>
-<div>
-    <h2 id="blog-header">Blog</h2>
-        <ul class="posts">
-            {% for post in site.posts limit:5 %}
-                <li class="post-entry">
-                    <div class="post-title">
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </div>
-                    <div class="post-date">{{ post.date | date: '%d %B %Y' }}</div>
-                </li>
-            {% endfor %}
-        </ul>
-    </div>
-</div>
