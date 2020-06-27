@@ -12,9 +12,11 @@
     <article class="blog-post">
         <h1 class="blog-title">{{ page.title }}</h1>
         <h2 class="blog-date">{{ page.date | date: "%B %d, %Y"}}</h2>
-        {% for tag in page.tags %}
-            <code class="tag">#{{ tag }}</code>
-        {% endfor %}
+        <ul class="hlist">
+            {% for tag in page.tags %}
+                <li><code class="tag"><a href="{{ site.baseurl }}/tags/{{ tag }}">#{{ tag }}</a></code></li>
+            {% endfor %}
+        </ul>
         <hr>
         {{content}}
     </article>

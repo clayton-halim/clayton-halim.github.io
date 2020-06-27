@@ -3,7 +3,7 @@ layout: post
 title: Rebranding with Jekyll
 date: 2018-02-21 00:15:00 -500
 excerpt: This is an explanation on how I redesigned my website and why Jekyll is so great.
-tags: [website]
+tags: website
 ---
 
 I made my first website about a year ago, and I thought it was pretty good for a first website. However I think the one page design doesn't really fit the goal of the site. I want to use this site to showcase all the different things that I do, so I decided to split up the site into its respective categories. 

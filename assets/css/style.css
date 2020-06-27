@@ -128,7 +128,7 @@ a:hover {
     list-style-type: none;
 }
 
-.hlist-item {
+.hlist > li {
     display: inline;
     margin-right: 0.5em;
 }
@@ -213,7 +213,12 @@ strong {
 }
 
 .tag {
-    display: inline;
+    margin: 0;
+}
+
+.tag-list {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .logo {

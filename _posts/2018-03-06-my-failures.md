@@ -3,7 +3,7 @@ layout: post
 title: My Failures and Disappointments
 date: 2018-03-06 00:01:44 -500
 excerpt: A list of some of my failures and Disapointments in my life
-tags: [self]
+tags: self
 ---
 
 Social media has become a medium for people to show the best parts of their life, however it's very easy to interpret this as how someone's life always is. I've had people tell me things like "You're a data science prodigy", "Now that you're in university, you have everything figured out", but it's easy to make quick comments that aren't necessarily true.

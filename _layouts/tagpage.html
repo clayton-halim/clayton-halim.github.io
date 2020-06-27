@@ -1,14 +1,10 @@
 ---
 layout: main
 ---
-
 {% include nav.html %}
-<p>
-Filter by <a href="{{ site.baseurl }}/tags">tag</a>
-</p>
-<hr/>
+<h1>#{{ page.tag }}</h1>
 <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.tags[page.tag] %}
         <li class="post-entry">
             <div class="post-title">
                 <a href="{{ post.url }}">{{ post.title }}</a>
@@ -17,3 +13,4 @@ Filter by <a href="{{ site.baseurl }}/tags">tag</a>
         </li>
     {% endfor %}
 </ul>
+</div>
