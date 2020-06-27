@@ -191,6 +191,10 @@ em {
     text-decoration: none;
 }
 
+#resume:hover {
+    color: var(--pink);
+}
+
 #github:hover {
     color: #333;
 }
