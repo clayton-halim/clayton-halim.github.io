@@ -1,29 +1,16 @@
 ---
+layout: main
 custom_css: blog
 ---
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-    {% include head.html %}
-    <meta property="og:type" content="article"/>
-    <meta property="og:title" content="{{ page.title }}"/>
-    <meta property="og:description" content="{{ page.excerpt }}"/>
-</head>
-<body>
-    <div id="content-wrapper">
-    <p>{{ page.custom_css }}</p>
-    {% include nav.html %}
-    <article class="blog-post">
-        <h1 class="blog-title">{{ page.title }}</h1>
-        <h2 class="blog-date">{{ page.date | date: "%B %d, %Y"}}</h2>
-        <ul class="hlist">
-            {% for tag in page.tags %}
-                <li><code class="tag"><a href="{{ site.baseurl }}/tags/{{ tag }}">#{{ tag }}</a></code></li>
-            {% endfor %}
-        </ul>
-        <hr>
-        {{content}}
-    </article>
-</div>
-</body>
-</html>
+{% include nav.html %}
+<article class="blog-post">
+    <h1 class="blog-title">{{ page.title }}</h1>
+    <h2 class="blog-date">{{ page.date | date: "%B %d, %Y"}}</h2>
+    <ul class="hlist">
+        {% for tag in page.tags %}
+            <li><code class="tag"><a href="{{ site.baseurl }}/tags/{{ tag }}">#{{ tag }}</a></code></li>
+        {% endfor %}
+    </ul>
+    <hr>
+    {{content}}
+</article>
