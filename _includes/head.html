@@ -8,13 +8,25 @@
 <meta name="msapplication-TileColor" content="#2b5797">
 <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/sanitize.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
 <link href="https://use.fontawesome.com/4c9066f1a6.css" media="all" rel="stylesheet">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/sanitize.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+{% for stylesheet in page.custom_css %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
+{% endfor %}
+{% for stylesheet in layout.custom_css %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
+{% endfor %}
 {% feed_meta %}
 {% seo %}
 {% if jekyll.environment == "production" %}
     {% include google-analytics.html %}
 {% endif %}
+{% for script in page.custom_js %}
+    <script type="text/javascript" href="{{ site.baseurl }}/assets/js/{{ script }}.js"></script>
+{% endfor %}
+{% for script in layout.custom_js %}
+    <script type="text/javascript" href="{{ site.baseurl }}/assets/js/{{ script }}.js"></script>
+{% endfor %}
 <title>clayton</title>
