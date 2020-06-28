@@ -6,11 +6,10 @@ custom_css: blog
 <article class="blog-post">
     <h1 class="blog-title">{{ page.title }}</h1>
     <h2 class="blog-date">{{ page.date | date: "%B %d, %Y"}}</h2>
-    <ul class="hlist">
+    <ul class="tags hlist">
         {% for tag in page.tags %}
             <li><code class="tag"><a href="{{ site.baseurl }}/tags/{{ tag }}">#{{ tag }}</a></code></li>
         {% endfor %}
     </ul>
-    <hr>
     {{content}}
 </article>
