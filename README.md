@@ -22,6 +22,11 @@ Set up post-commit hook to generate new tag pages (list of posts with a given ta
 scripts/generate_tags.py
 ```
 
+Make post-commit executable
+```
+chmod +x .git/hooks/post-commit
+```
+
 Run
 ```
 jekyll serve --host=0.0.0.0
