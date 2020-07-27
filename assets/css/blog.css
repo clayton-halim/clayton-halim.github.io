@@ -33,3 +33,31 @@
 .tags {
     margin-top: 0;
 }
+
+/*****************/
+/* Figure styles */
+/*****************/
+
+.figure {
+    margin: 1.5em 0;
+	text-align: center;
+}
+
+.figure-frame .figure-inner {
+	background-color: #EEE;
+    padding: 1em;
+}
+
+.figure-caption .figure-inner {
+	padding-bottom: 0.5em;
+}
+
+.figure-caption {
+	margin-top: 0.5em;
+}
+
+.figure-image {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
