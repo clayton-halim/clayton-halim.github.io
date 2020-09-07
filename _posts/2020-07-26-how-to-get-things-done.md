@@ -5,17 +5,17 @@ date: 2020-07-26 22:53:00
 tags: guide
 ---
 
-### TL;DR:
+## TL;DR:
 
 It won't get done if you don't write it down. Motivation is for starting things, discipline is for getting things done.
 
-### Blockers
+## Blockers
 
 Whether it's dishes you need to do or that recurring thought that you'd like to read more, we've all struggled with getting things done. If not, I doubt you'd be reading this  :^)
 
 To me, the lack of motivation and memory are the blockers of progress.
 
-### Memory
+## Memory
 
 My rule for memory is that it won't get done if I don't write it down. It sounds easy but I repeatedly fall into the trap that a task is simple enough to remember. I put my glass bottle of water in the freezer to chill it for a few minutes. I naively thought I would remember to take it out and you guessed it... I forgot it till the next day and it exploded. 
 
@@ -23,7 +23,7 @@ My rule for memory is that it won't get done if I don't write it down. It sounds
 
 I just use Google Tasks to set reminders and have check boxes for the pleasure of crossing items out.
 
-### Motivation
+## Motivation
 
 My philosophy is motivation is for starting things, discipline is for getting things done. I use a couple tricks to help me with this:
 
