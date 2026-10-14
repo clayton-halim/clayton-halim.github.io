@@ -14,8 +14,17 @@ const postDateFormatter = new Intl.DateTimeFormat('en-CA', {
   timeZone: LEGACY_TIME_ZONE,
 });
 
-function numericParts(date: Date): Record<string, number> {
-  return Object.fromEntries(
+type DateParts = {
+  year: number;
+  month: number;
+  day: number;
+  hour: number;
+  minute: number;
+  second: number;
+};
+
+function numericParts(date: Date): DateParts {
+  const parts: Record<string, number> = Object.fromEntries(
     new Intl.DateTimeFormat('en-CA', {
       day: '2-digit',
       hour: '2-digit',
@@ -30,6 +39,18 @@ function numericParts(date: Date): Record<string, number> {
       .filter((part) => part.type !== 'literal')
       .map((part) => [part.type, Number(part.value)]),
   );
+  const { year, month, day, hour, minute, second } = parts;
+  if (
+    year === undefined ||
+    month === undefined ||
+    day === undefined ||
+    hour === undefined ||
+    minute === undefined ||
+    second === undefined
+  ) {
+    throw new Error('Failed to extract numeric date parts');
+  }
+  return { year, month, day, hour, minute, second };
 }
 
 function parseNaiveTorontoDate(value: string): Date {
@@ -37,6 +58,9 @@ function parseNaiveTorontoDate(value: string): Date {
   if (!match) throw new Error(`Invalid naive legacy date: ${value}`);
 
   const [, year, month, day, hour, minute, second] = match;
+  if (!year || !month || !day || !hour || !minute || !second) {
+    throw new Error(`Invalid naive legacy date: ${value}`);
+  }
   const guess = Date.UTC(
     Number(year),
     Number(month) - 1,
@@ -62,6 +86,7 @@ export function parseLegacyDate(value: string): Date {
   const offsetMatch = /^(.*) ([+-]\d{2}:\d{2})$/.exec(normalized);
   if (offsetMatch) {
     const [, dateTime, offset] = offsetMatch;
+    if (!dateTime || !offset) throw new Error(`Invalid legacy date: ${value}`);
     return new Date(`${dateTime.replace(' ', 'T')}${offset}`);
   }
   return parseNaiveTorontoDate(normalized);
