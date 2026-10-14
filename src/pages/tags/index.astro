@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Nav from '../../components/Nav.astro';
+import { assertUniqueLegacyPaths } from '../../utils/content';
+
+const posts = await getCollection('blog', ({ data }) => !data.draft);
+assertUniqueLegacyPaths(posts);
+const tags = [...new Set(posts.flatMap((post) => post.data.tags))].sort((left, right) =>
+  left.localeCompare(right, 'en', { sensitivity: 'base' }),
+);
+---
+
+<BaseLayout title="Tags">
+  <Nav />
+  <h1>Tags</h1>
+  <ul class="tag-list">
+    {tags.map((tag) => (
+      <li><a href={`/tags/${encodeURIComponent(tag)}`}>{tag}</a></li>
+    ))}
+  </ul>
+</BaseLayout>

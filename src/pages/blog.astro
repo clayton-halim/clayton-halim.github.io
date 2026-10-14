@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Nav from '../components/Nav.astro';
+import PostList from '../components/PostList.astro';
+import { assertUniqueLegacyPaths, sortPostsDescending } from '../utils/content';
+
+const posts = await getCollection('blog', ({ data }) => !data.draft);
+assertUniqueLegacyPaths(posts);
+const sortedPosts = sortPostsDescending(posts);
+---
+
+<BaseLayout title="Blog">
+  <Nav />
+  <p>Filter by <a href="/tags">tag</a></p>
+  <hr />
+  <PostList posts={sortedPosts} />
+</BaseLayout>

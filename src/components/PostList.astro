@@ -1,0 +1,21 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { formatListDate } from '../utils/dates';
+
+interface Props {
+  posts: CollectionEntry<'blog'>[];
+}
+
+const { posts } = Astro.props;
+---
+
+<ul class="posts">
+  {posts.map((post) => (
+    <li class="post-entry">
+      <div class="post-title">
+        <a href={post.data.legacyPath}>{post.data.title}</a>
+      </div>
+      <div class="post-date">{formatListDate(post.data.date)}</div>
+    </li>
+  ))}
+</ul>

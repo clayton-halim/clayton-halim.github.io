@@ -1,5 +1,0 @@
-exclude: ['README.md', scripts]
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag

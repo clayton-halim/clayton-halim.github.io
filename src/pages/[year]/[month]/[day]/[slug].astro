@@ -1,0 +1,28 @@
+---
+import { getCollection, render } from 'astro:content';
+import PostLayout from '../../../../layouts/PostLayout.astro';
+import { assertUniqueLegacyPaths } from '../../../../utils/content';
+import { absoluteUrl, splitLegacyPath } from '../../../../utils/urls';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('blog', ({ data }) => !data.draft);
+  assertUniqueLegacyPaths(entries);
+  return entries.map((entry) => {
+    const { year, month, day, slug } = splitLegacyPath(entry.data.legacyPath);
+    return { params: { year, month, day, slug }, props: { entry } };
+  });
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<PostLayout
+  title={entry.data.title}
+  date={entry.data.date}
+  tags={entry.data.tags}
+  description={entry.data.excerpt}
+  canonical={absoluteUrl(entry.data.legacyPath)}
+>
+  <Content />
+</PostLayout>

@@ -1,0 +1,33 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption?: string;
+  frame?: boolean;
+  width?: number;
+}
+
+const { src, alt, caption, frame = false, width } = Astro.props;
+const isVideo = /\.mov$/i.test(src);
+---
+
+<figure class:list={['figure', { 'figure-caption': Boolean(caption), 'figure-frame': frame }]}>
+  <div class="figure-inner">
+    {isVideo ? (
+      <video autoplay loop muted playsinline>
+        <source src={src} type="video/quicktime" />
+        Your browser does not support the video tag.
+      </video>
+    ) : (
+      <img
+        class="figure-image"
+        src={src}
+        alt={alt}
+        loading="lazy"
+        width={width}
+        onload="this.parentElement.classList.add('figure-inner-loaded')"
+      />
+    )}
+    {caption && <figcaption class="figure-caption">{caption}</figcaption>}
+  </div>
+</figure>
