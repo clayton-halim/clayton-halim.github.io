@@ -3,6 +3,8 @@ name: Deploy Astro site to GitHub Pages
 on:
   push:
     branches: [master]
+  pull_request:
+    branches: [master]
   workflow_dispatch:
 
 permissions:
@@ -40,6 +42,8 @@ jobs:
           path: dist
 
   deploy:
+    # Only deploy from master pushes; PRs run build + type-check only.
+    if: github.event_name == 'push'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
